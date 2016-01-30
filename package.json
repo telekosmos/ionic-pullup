@@ -15,5 +15,11 @@
     "karma-junit-reporter": "^0.2.2",
     "protractor": "^2.1.0",
     "shelljs": "^0.2.6"
+  },
+  "jspm": {
+    "main": "dist/ion-pullup",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.0"
+    }
   }
 }
